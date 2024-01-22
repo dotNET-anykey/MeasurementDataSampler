@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeasurementDataSampler", "MeasurementDataSampler\MeasurementDataSampler.csproj", "{38C48565-A147-40B6-A3B1-BFCDA45DB8AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeasurementDataSampler.Tests", "MeasurementDataSampler.Tests\MeasurementDataSampler.Tests.csproj", "{6D299A92-6D1A-471C-B02C-75E9F0075A83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{38C48565-A147-40B6-A3B1-BFCDA45DB8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38C48565-A147-40B6-A3B1-BFCDA45DB8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38C48565-A147-40B6-A3B1-BFCDA45DB8AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D299A92-6D1A-471C-B02C-75E9F0075A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D299A92-6D1A-471C-B02C-75E9F0075A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D299A92-6D1A-471C-B02C-75E9F0075A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D299A92-6D1A-471C-B02C-75E9F0075A83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -20,8 +20,9 @@
             {
                 Console.WriteLine(measurement.ToString());
             }
-            
-            Dictionary<MeasurementType, List<Measurement>> sample = MeasurementSampler.Sample(new DateTime(2017, 01, 03, 10, 00, 00), input);
+
+            var startOfSampling = new DateTime(2017, 01, 03, 10, 00, 00);
+            Dictionary<MeasurementType, List<Measurement>> sample = MeasurementSampler.Sample(startOfSampling, input);
 
             Console.WriteLine("OUTPUT:");
             foreach (Measurement measurement in sample.Values.SelectMany(measurements => measurements))
